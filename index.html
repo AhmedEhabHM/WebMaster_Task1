@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies App</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <i class="fa-solid fa-film me-2"></i> Movies
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coming">Coming Soon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#newsletter">Newsletter</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-custom ms-lg-3">Sign In</a>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="home-text">
+              <span>Marvel Universe</span>
+              <h2 class="display-4">
+                Spider-Man<br />
+                Far From Home
+              </h2>
+              <a href="#" class="btn btn-custom btn-lg">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- Movies Section -->
+    <section id="movies" class="py-5">
+      <div class="container">
+        <h2 class="section-heading text-center">Opening this Week</h2>
+        <div class="row">
+          <!-- Movie 1 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m1.jpg" alt="Venom" class="movie-img" />
+              <h3 class="movie-title">Venom</h3>
+              <span class="movie-info">120min | Action</span>
+            </div>
+          </div>
+          <!-- Movie 2 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m2.jpg" alt="Dunkirk" class="movie-img" />
+              <h3 class="movie-title">Dunkirk</h3>
+              <span class="movie-info">105min | Adventure</span>
+            </div>
+          </div>
+          <!-- Movie 3 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m3.jpg" alt="Batman & Superman" class="movie-img" />
+              <h3 class="movie-title">Batman & Superman</h3>
+              <span class="movie-info">100min | Thriller</span>
+            </div>
+          </div>
+          <!-- Movie 4 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m4.jpg" alt="John Wick" class="movie-img" />
+              <h3 class="movie-title">John Wick</h3>
+              <span class="movie-info">120min | Adventure</span>
+            </div>
+          </div>
+          <!-- Movie 5 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m5.jpg" alt="Aquaman" class="movie-img" />
+              <h3 class="movie-title">Aquaman</h3>
+              <span class="movie-info">130min | Action</span>
+            </div>
+          </div>
+          <!-- Movie 6 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m6.jpg" alt="Black Panther" class="movie-img" />
+              <h3 class="movie-title">Black Panther</h3>
+              <span class="movie-info">90min | Thriller</span>
+            </div>
+          </div>
+          <!-- Movie 7 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m7.jpg" alt="Thor" class="movie-img" />
+              <h3 class="movie-title">Thor</h3>
+              <span class="movie-info">130min | Action</span>
+            </div>
+          </div>
+          <!-- Movie 8 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m8.png" alt="Bumblebee" class="movie-img" />
+              <h3 class="movie-title">Bumblebee</h3>
+              <span class="movie-info">100min | Thriller</span>
+            </div>
+          </div>
+          <!-- Movie 9 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/m9.jpg" alt="Mortal Engines" class="movie-img" />
+              <h3 class="movie-title">Mortal Engines</h3>
+              <span class="movie-info">100min | Action</span>
+            </div>
+          </div>
+          <!-- Movie 10 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img
+                src="img/m10.jpg"
+                alt="UnderWorld Blood Wars"
+                class="movie-img"
+              />
+              <h3 class="movie-title">UnderWorld Blood Wars</h3>
+              <span class="movie-info">100min | Action</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Movies Section -->
+
+    <!-- Coming Soon Section -->
+    <section id="coming" class="py-5 bg-dark">
+      <div class="container">
+        <h2 class="section-heading text-center">Coming Soon</h2>
+        <div class="row">
+          <!-- Coming 1 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img
+                src="img/coming1.jpg"
+                alt="Johnny English"
+                class="movie-img"
+              />
+              <h3 class="movie-title">Johnny English</h3>
+              <span class="movie-info">80min | Comedy</span>
+            </div>
+          </div>
+          <!-- Coming 2 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/coming2.jpg" alt="Warcraft" class="movie-img" />
+              <h3 class="movie-title">Warcraft</h3>
+              <span class="movie-info">120min | Action</span>
+            </div>
+          </div>
+          <!-- Coming 3 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/coming3.jpg" alt="Rampage" class="movie-img" />
+              <h3 class="movie-title">Rampage</h3>
+              <span class="movie-info">108min | Adventure</span>
+            </div>
+          </div>
+          <!-- Coming 4 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/coming4.jpg" alt="Iron Lady" class="movie-img" />
+              <h3 class="movie-title">Iron Lady</h3>
+              <span class="movie-info">120min | Comedy</span>
+            </div>
+          </div>
+          <!-- Coming 5 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img
+                src="img/coming5.jpg"
+                alt="Justice League"
+                class="movie-img"
+              />
+              <h3 class="movie-title">Justice League</h3>
+              <span class="movie-info">120min | Adventure</span>
+            </div>
+          </div>
+          <!-- Coming 6 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img
+                src="img/coming6.jpeg"
+                alt="Doctor Strange"
+                class="movie-img"
+              />
+              <h3 class="movie-title">Doctor Strange</h3>
+              <span class="movie-info">120min | Adventure</span>
+            </div>
+          </div>
+          <!-- Coming 7 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img
+                src="img/coming7.jpg"
+                alt="Captain Marvel"
+                class="movie-img"
+              />
+              <h3 class="movie-title">Captain Marvel</h3>
+              <span class="movie-info">120min | Adventure</span>
+            </div>
+          </div>
+          <!-- Coming 8 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/coming8.jpg" alt="Black Widow" class="movie-img" />
+              <h3 class="movie-title">Black Widow</h3>
+              <span class="movie-info">90min | Action</span>
+            </div>
+          </div>
+          <!-- Coming 9 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img src="img/coming9.jpg" alt="Ant Man" class="movie-img" />
+              <h3 class="movie-title">Ant Man</h3>
+              <span class="movie-info">110min | Adventure</span>
+            </div>
+          </div>
+          <!-- Coming 10 -->
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="movie-box">
+              <img
+                src="img/coming10.jpg"
+                alt="Guardians Of The Galaxy"
+                class="movie-img"
+              />
+              <h3 class="movie-title">Guardians Of The Galaxy</h3>
+              <span class="movie-info">120min | Adventure</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Coming Soon Section -->
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="py-5 news-section">
+      <div class="container">
+        <h2>
+          Subscribe To Get <br />
+          Newsletter
+        </h2>
+        <form class="news-form mt-4">
+          <input
+            type="email"
+            class="form-control me-2"
+            placeholder="Enter Email..."
+          />
+          <button type="submit" class="btn btn-custom">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!-- End Newsletter Section -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <a href="index.html" class="logo text-decoration-none">
+              <i class="fa-solid fa-film me-2"></i> Movies
+            </a>
+          </div>
+          <div class="col-md-6 text-md-end mt-3 mt-md-0">
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169; <span>Web Masters</span> All Right Reserved.</p>
+    </div>
+    <!-- End Copyright -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
